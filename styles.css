@@ -7,6 +7,7 @@ body {
     justify-content: center;
 }
 #container{
+    border: solid grey 1px;
     display: flex;
     flex-flow: column;
     flex-wrap: wrap;
@@ -16,10 +17,16 @@ body {
 
 .box {
     border: solid grey 1px;
-    background-color: white;
     width: 100%;
     margin: 0;
     flex: 1 1 0;
+}
+.hoverin{
+    background-color: black;
+}
+
+.box#clicked {
+    background-color: black;
 }
 .row {
     display: flex;
