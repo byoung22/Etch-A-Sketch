@@ -1,0 +1,29 @@
+* {
+    /*border: solid red 1px;*/
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+#container{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 720px;
+    width: 720px;
+}
+
+.box {
+    border: solid grey 1px;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    flex: 1 1 0;
+}
+.row {
+    display: flex;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
